@@ -1,7 +1,7 @@
-import React, { useContext } from 'react';
-import { motion } from 'framer-motion';
-import { durationPage } from '../config';
-import { fullstack } from '../translate/fullstack';
+import React, { useContext } from "react";
+import { motion } from "framer-motion";
+import { durationPage } from "../config";
+import { fullstack } from "../translate/fullstack";
 import {
   Grid,
   IconButton,
@@ -12,16 +12,16 @@ import {
   Typography,
   Container,
   Hidden,
-} from '@material-ui/core';
-import '../tmp.scss';
-import PortfolioSingle from './PortfolioSingle';
-import { translateText } from '../translate/texts';
-import { ThemeContext } from '../context/ThemeContext';
-import { HashLink } from 'react-router-hash-link';
-import ScrollToTop from 'react-scroll-up';
-import PresentToAllIcon from '@material-ui/icons/PresentToAll';
-import { useStyles } from '../styles/PorfolioPageStyles';
-import VideoPageComponent from './VideoPageComponent';
+} from "@material-ui/core";
+import "../tmp.scss";
+import PortfolioSingle from "./PortfolioSingle";
+import { translateText } from "../translate/texts";
+import { ThemeContext } from "../context/ThemeContext";
+import { HashLink } from "react-router-hash-link";
+import ScrollToTop from "react-scroll-up";
+import PresentToAllIcon from "@material-ui/icons/PresentToAll";
+import { useStyles } from "../styles/PorfolioPageStyles";
+import VideoPageComponent from "./VideoPageComponent";
 
 function FullStack() {
   const classes = useStyles();
@@ -51,12 +51,12 @@ function FullStack() {
                 <Paper
                   className={classes.fastLinkPapaer}
                   elevation={3}
-                  style={{ marginTop: '1rem' }}
+                  style={{ marginTop: "1rem" }}
                 >
                   <Typography variant="h2">{header}</Typography>
                   <Typography variant="body1">{fullStackLinks}</Typography>
                   <List
-                    style={{ display: 'flex', flexDirection: 'row' }}
+                    style={{ display: "flex", flexDirection: "row" }}
                     className={classes.listAll}
                   >
                     <ListItem>
@@ -108,12 +108,31 @@ function FullStack() {
             </Hidden>
           </Grid>
         </Grid>
-        <Grid container spacing={5} style={{ marginTop: '1rem' }}>
+        <Grid container spacing={5} style={{ marginTop: "1rem" }}>
           <Grid item container xs={12}>
             <div id="venezo">
               <PortfolioSingle
                 vidUrl="https://youtu.be/IHpfcNRXUcU"
-                coverImg={require('../assets/venezo-cover.png')}
+                coverImg={require("../assets/venezo-cover.png")}
+                projectName="venezo"
+              />
+            </div>
+          </Grid>
+          <Grid item container xs={12}>
+            <div id="a77_new">
+              <PortfolioSingle
+                vidUrl={""}
+                coverImg={require("../assets/a77_new.png")}
+                projectName="a77_new"
+                direction
+              />
+            </div>
+          </Grid>
+          <Grid item container xs={12}>
+            <div id="venezo">
+              <PortfolioSingle
+                vidUrl="https://youtu.be/IHpfcNRXUcU"
+                coverImg={require("../assets/venezo-cover.png")}
                 projectName="venezo"
               />
             </div>
@@ -122,7 +141,7 @@ function FullStack() {
             <div id="ducato">
               <PortfolioSingle
                 vidUrl="https://youtu.be/6L9CCT7akuU"
-                coverImg={require('../assets/ducato_cover.png')}
+                coverImg={require("../assets/ducato_cover.png")}
                 projectName="ducato"
                 buttons={true}
                 direction
@@ -133,7 +152,7 @@ function FullStack() {
             <div id="suppliers">
               <PortfolioSingle
                 vidUrl="https://youtu.be/rVCiNUIsKE0"
-                coverImg={require('../assets/suppliers.png')}
+                coverImg={require("../assets/suppliers.png")}
                 projectName="suppliers"
                 buttons={false}
                 direction
@@ -144,7 +163,7 @@ function FullStack() {
             <div id="a77">
               <PortfolioSingle
                 vidUrl="https://youtu.be/yy6BsklDG_s"
-                coverImg={require('../assets/a77_2.png')}
+                coverImg={require("../assets/a77_2.png")}
                 projectName="a77"
                 buttons={false}
                 direction={false}

@@ -6,13 +6,13 @@ interface TransText {
 
 export const translateText: TransText = {
   english: {
-    CVHeader: 'My Resume',
-    CVDownload: 'Download CV',
-    myName: 'My name is',
-    name: 'Vladimir Vostrikov',
+    CVHeader: "My Resume",
+    CVDownload: "Download CV",
+    myName: "My name is",
+    name: "Vladimir Vostrikov",
     mainHeading:
       "I'm Full Stack developer with huge knowledge of Online Marketing, and Experience in ecommerce business.",
-    learnMore: 'Learn more',
+    learnMore: "Learn more",
     secondRowText: `
     <p>
       So here I am.
@@ -47,19 +47,36 @@ export const translateText: TransText = {
       Am absolutely positive about that.
     </p>
     `,
-    betweenRow: 'Let me introduce myself in this very short video.',
-    blog_latestNews: 'Latest News',
-    blog_search: 'Search',
-    blog_noSearchResults: 'No Search Results',
-    blog_categories: 'Categories',
-    pageTitle: 'Portfolio Page',
-    frontEndLinks: 'Front End Projects Fast Links',
-    fullStackLinks: 'Full Stack Projects Fast Links',
-    miscLinks: 'Miscellanious Projects Fast Links',
+    betweenRow: "Let me introduce myself in this very short video.",
+    blog_latestNews: "Latest News",
+    blog_search: "Search",
+    blog_noSearchResults: "No Search Results",
+    blog_categories: "Categories",
+    pageTitle: "Portfolio Page",
+    frontEndLinks: "Front End Projects Fast Links",
+    fullStackLinks: "Full Stack Projects Fast Links",
+    miscLinks: "Miscellanious Projects Fast Links",
     portfolio: {
+      a77_new: {
+        title: `Angara Car Parts Project E-commerce project (Python, Django, PHP, Microservises)`,
+        mainText: `
+        <p>
+        This ecommerce project was built using the Python, Jango framework, PHP, Microservises Architecture in backend.
+        Frontend built with VueJS, JQuery, Webpack.
+        </p>
+        `,
+
+        gitHub: {
+          href: "https://github.com/mikohan/a77-new-life",
+          text: "See code on GitHub",
+        },
+        project: {
+          href: "https://angara77.com",
+          text: "Live View",
+        },
+      },
       venezo: {
         title: `Venezo Project E-commerce project (Python, Django, ElasticSerach)`,
-
         mainText: `
         <p>
         This ecommerce project was built using the Python and Jango framework.
@@ -83,12 +100,12 @@ export const translateText: TransText = {
         `,
 
         gitHub: {
-          href: 'https://github.com/mikohan/venezoproject',
-          text: 'See code on GitHub',
+          href: "https://github.com/mikohan/venezoproject",
+          text: "See code on GitHub",
         },
         project: {
-          href: 'https://venezo.ru',
-          text: 'Live View',
+          href: "https://venezo.ru",
+          text: "Live View",
         },
       },
       enterprise: {
@@ -135,12 +152,12 @@ export const translateText: TransText = {
         </p>
         `,
         gitHub: {
-          href: 'https://github.com/mikohan/venezoproject',
-          text: 'See code on GitHub',
+          href: "https://github.com/mikohan/venezoproject",
+          text: "See code on GitHub",
         },
         project: {
-          href: 'https://venezo.ru',
-          text: 'Live View',
+          href: "https://venezo.ru",
+          text: "Live View",
         },
       },
       suppliers: {
@@ -178,12 +195,12 @@ export const translateText: TransText = {
         </p>
         `,
         gitHub: {
-          href: 'https://github.com/mikohan/venezoproject',
-          text: 'See code on GitHub',
+          href: "https://github.com/mikohan/venezoproject",
+          text: "See code on GitHub",
         },
         project: {
-          href: 'https://venezo.ru',
-          text: 'Live View',
+          href: "https://venezo.ru",
+          text: "Live View",
         },
       },
       a77: {
@@ -224,12 +241,12 @@ export const translateText: TransText = {
         </p>
         `,
         gitHub: {
-          href: 'https://github.com/mikohan/venezoproject',
-          text: 'See code on GitHub',
+          href: "https://github.com/mikohan/venezoproject",
+          text: "See code on GitHub",
         },
         project: {
-          href: 'https://venezo.ru',
-          text: 'Live View',
+          href: "https://venezo.ru",
+          text: "Live View",
         },
       },
       sheets: {
@@ -254,12 +271,12 @@ export const translateText: TransText = {
         </p>
         `,
         gitHub: {
-          href: 'https://github.com/mikohan/javascript-excel-project',
-          text: 'See code on GitHub',
+          href: "https://github.com/mikohan/javascript-excel-project",
+          text: "See code on GitHub",
         },
         project: {
-          href: 'http://sheetsonjs.tk/',
-          text: 'Live View',
+          href: "http://sheetsonjs.tk/",
+          text: "Live View",
         },
       },
       ducato: {
@@ -277,12 +294,12 @@ export const translateText: TransText = {
         </p>
         `,
         gitHub: {
-          href: 'https://github.com/mikohan/dp',
-          text: 'See code on GitHub',
+          href: "https://github.com/mikohan/dp",
+          text: "See code on GitHub",
         },
         project: {
-          href: 'https://ducatoparts.ru',
-          text: 'Live View',
+          href: "https://ducatoparts.ru",
+          text: "Live View",
         },
       },
       nuxtChat: {
@@ -304,12 +321,12 @@ export const translateText: TransText = {
         </p>
         `,
         gitHub: {
-          href: 'https://github.com/mikohan/live-nuxt-chat',
-          text: 'See on Git Hub ',
+          href: "https://github.com/mikohan/live-nuxt-chat",
+          text: "See on Git Hub ",
         },
         project: {
-          href: 'https://nuxtchat.tk',
-          text: 'Live View',
+          href: "https://nuxtchat.tk",
+          text: "Live View",
         },
       },
       colors: {
@@ -332,24 +349,24 @@ export const translateText: TransText = {
         </p>
         `,
         gitHub: {
-          href: 'https://github.com/mikohan/color-project',
-          text: 'See code on GitHub',
+          href: "https://github.com/mikohan/color-project",
+          text: "See code on GitHub",
         },
         project: {
-          href: 'http://flatcolors.tk',
-          text: 'Live View',
+          href: "http://flatcolors.tk",
+          text: "Live View",
         },
       },
     },
   },
   russian: {
-    myName: 'Меня зовут',
-    name: 'Владимир Востриков',
-    CVHeader: 'Моё резюме',
-    CVDownload: 'Скачать резюме',
+    myName: "Меня зовут",
+    name: "Владимир Востриков",
+    CVHeader: "Моё резюме",
+    CVDownload: "Скачать резюме",
     mainHeading:
-      'Я разработчик Full Stack с огромными знаниями в области интернет-маркетинга и опытом работы в сфере электронной коммерции.',
-    learnMore: 'Узнать больше',
+      "Я разработчик Full Stack с огромными знаниями в области интернет-маркетинга и опытом работы в сфере электронной коммерции.",
+    learnMore: "Узнать больше",
     secondRowText: `
     <p>
     Привет всем.
@@ -382,18 +399,35 @@ export const translateText: TransText = {
     Я абсолютно уверен в этом.
     </p>
     `,
-    betweenRow: 'Позвольте представится, меня зовут Владимир.',
-    blog_latestNews: 'Последние посты',
-    blog_search: 'Поиск',
-    blog_noSearchResults: 'Поиск не дал результатов',
-    blog_categories: 'Категории',
-    frontEndLinks: 'Фрон Енд Проекты',
-    fullStackLinks: 'Фулл Стак Проекты',
-    miscLinks: 'Разные Поекты',
+    betweenRow: "Позвольте представится, меня зовут Владимир.",
+    blog_latestNews: "Последние посты",
+    blog_search: "Поиск",
+    blog_noSearchResults: "Поиск не дал результатов",
+    blog_categories: "Категории",
+    frontEndLinks: "Фрон Енд Проекты",
+    fullStackLinks: "Фулл Стак Проекты",
+    miscLinks: "Разные Поекты",
     portfolio: {
-      pageTitle: 'Портфолио',
+      pageTitle: "Портфолио",
+      a77_new: {
+        title: `Интернет Магазин Запчастей Angara (Python, Django, Microservises, Elasticsearch, PHP)`,
+        mainText: `
+        <p>
+        Этот E-commerce проект был построен с использованием Python и Jango, PHP на бэкенде.
+        На фронте использовал JQuery, VueJS
+        </p>
+        `,
+        gitHub: {
+          href: "https://github.com/mikohan/a77-new-life",
+          text: "Посмотреть код на GitHub",
+        },
+        project: {
+          href: "https://angara77.com",
+          text: "Посмотреть сайт",
+        },
+      },
       venezo: {
-        title: `Интернет Магазин Запчастей (Python, Django)`,
+        title: `Angara Car Parts Project E-commerce project (Python, Django, PHP, Microservises)`,
         mainText: `
         <p>
         Этот E-commerce проект был построен с использованием Python и Jango.
@@ -415,12 +449,12 @@ export const translateText: TransText = {
         </p>
         `,
         gitHub: {
-          href: 'https://github.com/mikohan/venezoproject',
-          text: 'Посмотреть код на GitHub',
+          href: "https://github.com/mikohan/venezoproject",
+          text: "Посмотреть код на GitHub",
         },
         project: {
-          href: 'https://venezo.ru',
-          text: 'Посмотреть сайт',
+          href: "https://venezo.ru",
+          text: "Посмотреть сайт",
         },
       },
       enterprise: {
@@ -465,12 +499,12 @@ export const translateText: TransText = {
         Проект создан нашей командой. Моя роль в этом проекте была руководителем группы.
         </p>`,
         gitHub: {
-          href: 'https://github.com/mikohan/venezoproject',
-          text: 'See code on GitHub',
+          href: "https://github.com/mikohan/venezoproject",
+          text: "See code on GitHub",
         },
         project: {
-          href: 'https://venezo.ru',
-          text: 'Live View',
+          href: "https://venezo.ru",
+          text: "Live View",
         },
       },
       suppliers: {
@@ -506,12 +540,12 @@ export const translateText: TransText = {
         раза короче.
         </p>`,
         gitHub: {
-          href: 'https://github.com/mikohan/venezoproject',
-          text: 'See code on GitHub',
+          href: "https://github.com/mikohan/venezoproject",
+          text: "See code on GitHub",
         },
         project: {
-          href: 'https://venezo.ru',
-          text: 'Live View',
+          href: "https://venezo.ru",
+          text: "Live View",
         },
       },
       a77: {
@@ -550,12 +584,12 @@ export const translateText: TransText = {
         А также автоматизация значительно сокращает расходы на ведение бизнеса.
         </p>`,
         gitHub: {
-          href: 'https://github.com/mikohan/venezoproject',
-          text: 'See code on GitHub',
+          href: "https://github.com/mikohan/venezoproject",
+          text: "See code on GitHub",
         },
         project: {
-          href: 'https://venezo.ru',
-          text: 'Live View',
+          href: "https://venezo.ru",
+          text: "Live View",
         },
       },
       sheets: {
@@ -578,12 +612,12 @@ export const translateText: TransText = {
         Для меня это было настоящим испытанием.
         </p>`,
         gitHub: {
-          href: 'https://github.com/mikohan/javascript-excel-project',
-          text: 'Посмотреть на GitHub',
+          href: "https://github.com/mikohan/javascript-excel-project",
+          text: "Посмотреть на GitHub",
         },
         project: {
-          href: 'http://sheetsonjs.tk/',
-          text: 'Посмотреть Сайт',
+          href: "http://sheetsonjs.tk/",
+          text: "Посмотреть Сайт",
         },
       },
       ducato: {
@@ -599,12 +633,12 @@ export const translateText: TransText = {
         В результате посещаемость сайта начинает быстро расти после развертывания и продолжает расти.
         </p>`,
         gitHub: {
-          href: 'https://github.com/mikohan/dp',
-          text: 'Посмотреть на GitHub',
+          href: "https://github.com/mikohan/dp",
+          text: "Посмотреть на GitHub",
         },
         project: {
-          href: 'https://ducatoparts.ru',
-          text: 'Перейти на сайт',
+          href: "https://ducatoparts.ru",
+          text: "Перейти на сайт",
         },
       },
       nuxtChat: {
@@ -624,12 +658,12 @@ export const translateText: TransText = {
         Теперь это работает, и мы можем попробовать!
         </p>`,
         gitHub: {
-          href: 'https://github.com/mikohan/live-nuxt-chat',
-          text: 'Посмотреть код на GitHub',
+          href: "https://github.com/mikohan/live-nuxt-chat",
+          text: "Посмотреть код на GitHub",
         },
         project: {
-          href: 'https://nuxtchat.tk',
-          text: 'Посмотреть Чат',
+          href: "https://nuxtchat.tk",
+          text: "Посмотреть Чат",
         },
       },
       colors: {
@@ -650,24 +684,24 @@ export const translateText: TransText = {
         Вы можете протестировать это на flatcolors.tk
         </p>`,
         gitHub: {
-          href: 'https://github.com/mikohan/color-project',
-          text: 'Посмотреть код на GitHub',
+          href: "https://github.com/mikohan/color-project",
+          text: "Посмотреть код на GitHub",
         },
         project: {
-          href: 'https://flatcorlors.tk',
-          text: 'Посмотреть сайт',
+          href: "https://flatcorlors.tk",
+          text: "Посмотреть сайт",
         },
       },
     },
   },
   czech: {
-    myName: 'Jmenuji se ',
-    name: 'Vladimir Vostrikov',
-    CVHeader: 'Můj životopis',
-    CVDownload: 'Download CV',
+    myName: "Jmenuji se ",
+    name: "Vladimir Vostrikov",
+    CVHeader: "Můj životopis",
+    CVDownload: "Download CV",
     mainHeading:
-      'Jsem vývojář Full Stack s obrovskými znalostmi online marketingu a zkušeností v oblasti elektronického obchodování.',
-    learnMore: 'Dozvědět se více',
+      "Jsem vývojář Full Stack s obrovskými znalostmi online marketingu a zkušeností v oblasti elektronického obchodování.",
+    learnMore: "Dozvědět se více",
     secondRowText: `
     <p>Jsem vývojář Full Stack s obrovskými znalostmi online marketingu a zkušeností 
     v oblasti elektronického obchodování.
@@ -699,16 +733,32 @@ export const translateText: TransText = {
        Jsem naprosto jistý.
      </p>
     `,
-    betweenRow: 'Short video introdusing myself',
-    blog_latestNews: 'Poslední zprávy',
-    blog_search: 'Vyhledávání',
-    blog_noSearchResults: 'Žádné výsledky vyhledávání',
-    blog_categories: 'Kategorie',
-    frontEndLinks: 'Front End Projects Fast Links',
-    fullStackLinks: 'Full Stack Projects Fast Links',
-    miscLinks: 'Miscellanious Projects Fast Links',
+    betweenRow: "Short video introdusing myself",
+    blog_latestNews: "Poslední zprávy",
+    blog_search: "Vyhledávání",
+    blog_noSearchResults: "Žádné výsledky vyhledávání",
+    blog_categories: "Kategorie",
+    frontEndLinks: "Front End Projects Fast Links",
+    fullStackLinks: "Full Stack Projects Fast Links",
+    miscLinks: "Miscellanious Projects Fast Links",
     portfolio: {
-      pageTitle: 'Portfolio Page',
+      pageTitle: "Portfolio Page",
+      a77_new: {
+        title: `Angara Car Parts Project E-commerce project (Python, Django, PHP, Microservises)`,
+        mainText: `<p>
+        Tento projekt elektronického obchodování byl vytvořen pomocí Pythonu a Jango.
+        Mimochodem, tento projekt jsem postavil sám od začátku do výroby.
+        </p>
+        `,
+        gitHub: {
+          href: "https://github.com/mikohan/a77-new-life",
+          text: "See code on GitHub",
+        },
+        project: {
+          href: "https://angara77.com",
+          text: "Live View",
+        },
+      },
       venezo: {
         title: `Venezo Project E-commerce project (Python, Django)`,
         mainText: `<p>
@@ -730,12 +780,12 @@ export const translateText: TransText = {
         ke klasifikaci obrazů byly použity konvoluční neuronové sítě.
         </p>`,
         gitHub: {
-          href: 'https://github.com/mikohan/venezoproject',
-          text: 'See code on GitHub',
+          href: "https://github.com/mikohan/venezoproject",
+          text: "See code on GitHub",
         },
         project: {
-          href: 'https://venezo.ru',
-          text: 'Live View',
+          href: "https://venezo.ru",
+          text: "Live View",
         },
       },
       enterprise: {
@@ -780,12 +830,12 @@ export const translateText: TransText = {
         Projekt vytvořil náš tým. Moje role v tomto projektu byla vedoucí týmu.
         </p>`,
         gitHub: {
-          href: 'https://github.com/mikohan/venezoproject',
-          text: 'See code on GitHub',
+          href: "https://github.com/mikohan/venezoproject",
+          text: "See code on GitHub",
         },
         project: {
-          href: 'https://venezo.ru',
-          text: 'Live View',
+          href: "https://venezo.ru",
+          text: "Live View",
         },
       },
       suppliers: {
@@ -821,12 +871,12 @@ export const translateText: TransText = {
         krát kratší.
         </p>`,
         gitHub: {
-          href: 'https://github.com/mikohan/venezoproject',
-          text: 'See code on GitHub',
+          href: "https://github.com/mikohan/venezoproject",
+          text: "See code on GitHub",
         },
         project: {
-          href: 'https://venezo.ru',
-          text: 'Live View',
+          href: "https://venezo.ru",
+          text: "Live View",
         },
       },
       a77: {
@@ -865,12 +915,12 @@ export const translateText: TransText = {
         Stejně jako automatizace výrazně snižuje výdaje na obchodní operace.
         </p>`,
         gitHub: {
-          href: 'https://github.com/mikohan/venezoproject',
-          text: 'See code on GitHub',
+          href: "https://github.com/mikohan/venezoproject",
+          text: "See code on GitHub",
         },
         project: {
-          href: 'https://venezo.ru',
-          text: 'Live View',
+          href: "https://venezo.ru",
+          text: "Live View",
         },
       },
       sheets: {
@@ -893,12 +943,12 @@ export const translateText: TransText = {
         Byla to pro mě skutečná výzva.
         </p>`,
         gitHub: {
-          href: 'https://github.com/mikohan/javascript-excel-project',
-          text: 'See code on GitHub',
+          href: "https://github.com/mikohan/javascript-excel-project",
+          text: "See code on GitHub",
         },
         project: {
-          href: 'http://sheetsonjs.tk/',
-          text: 'Live View',
+          href: "http://sheetsonjs.tk/",
+          text: "Live View",
         },
       },
       ducato: {
@@ -914,12 +964,12 @@ export const translateText: TransText = {
         Výsledkem je, že provoz webu po nasazení rychle roste a stále roste.
         </p>`,
         gitHub: {
-          href: 'https://github.com/mikohan/dp',
-          text: 'See code on GitHub',
+          href: "https://github.com/mikohan/dp",
+          text: "See code on GitHub",
         },
         project: {
-          href: 'https://ducatoparts.ru',
-          text: 'Live View',
+          href: "https://ducatoparts.ru",
+          text: "Live View",
         },
       },
       nuxtChat: {
@@ -939,12 +989,12 @@ export const translateText: TransText = {
         Nyní to funguje a my to můžeme vyzkoušet!
         </p>`,
         gitHub: {
-          href: 'https://github.com/mikohan/live-nuxt-chat',
-          text: 'See code on GitHub',
+          href: "https://github.com/mikohan/live-nuxt-chat",
+          text: "See code on GitHub",
         },
         project: {
-          href: 'https://nuxtchat.tk',
-          text: 'Live View',
+          href: "https://nuxtchat.tk",
+          text: "Live View",
         },
       },
       colors: {
@@ -965,12 +1015,12 @@ export const translateText: TransText = {
         Můžete to otestovat na flatcolors.tk
         </p>`,
         gitHub: {
-          href: 'https://github.com/mikohan/color-project',
-          text: 'See code on GitHub',
+          href: "https://github.com/mikohan/color-project",
+          text: "See code on GitHub",
         },
         project: {
-          href: 'https://flatcolors.tk',
-          text: 'Live View',
+          href: "https://flatcolors.tk",
+          text: "Live View",
         },
       },
     },

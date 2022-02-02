@@ -1,13 +1,14 @@
-import React, { useContext } from 'react';
-import ReactPlayer from 'react-player';
-import { Grid, Paper, Typography, Box } from '@material-ui/core';
-import { useStyles } from '../styles/PorfolioPageStyles';
-import { translateText } from '../translate/texts';
-import { ThemeContext } from '../context/ThemeContext';
-import '../tmp.scss';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import VisibilityIcon from '@material-ui/icons/Visibility';
-import Button from '@material-ui/core/Button';
+import React, { useContext } from "react";
+import ReactPlayer from "react-player";
+import { Grid, Paper, Typography, Box } from "@material-ui/core";
+import { useStyles } from "../styles/PorfolioPageStyles";
+import { translateText } from "../translate/texts";
+import { ThemeContext } from "../context/ThemeContext";
+import "../tmp.scss";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import VisibilityIcon from "@material-ui/icons/Visibility";
+import Button from "@material-ui/core/Button";
+import Image from "material-ui-image";
 
 interface IProps {
   vidUrl: string;
@@ -31,16 +32,20 @@ function PortfolioSingle({
 
   const PlayerBox = () => (
     <Grid item xs={12} md={7}>
-      <Box className="player-wrapper">
-        <ReactPlayer
-          className="react-player"
-          url={vidUrl}
-          controls
-          light={coverImg}
-          width="100%"
-          height="100%"
-        />
-      </Box>
+      {vidUrl ? (
+        <Box className="player-wrapper">
+          <ReactPlayer
+            className="react-player"
+            url={vidUrl}
+            controls
+            light={coverImg}
+            width="100%"
+            height="100%"
+          />
+        </Box>
+      ) : (
+        <Image src={coverImg!} aspectRatio={16 / 9} />
+      )}
     </Grid>
   );
 
@@ -51,11 +56,11 @@ function PortfolioSingle({
           <Grid item xs={12}>
             <Typography variant="h4">{portfolio[projectName].title}</Typography>
           </Grid>
-          {!direction ? <PlayerBox /> : ''}
+          {!direction ? <PlayerBox /> : ""}
           <Grid item xs={12} md={5}>
             <Box
               className={classes.textPadding}
-              display={{ xs: 'none', md: 'block' }}
+              display={{ xs: "none", md: "block" }}
             >
               <Typography
                 variant="body1"
@@ -66,11 +71,11 @@ function PortfolioSingle({
               ></Typography>
             </Box>
           </Grid>
-          {direction ? <PlayerBox /> : ''}
+          {direction ? <PlayerBox /> : ""}
         </Grid>
 
         <Grid className={classes.bottomLinks} item xs={12}>
-          <Box display={{ xs: 'none', sm: 'block' }}>
+          <Box display={{ xs: "none", sm: "block" }}>
             {buttons ? (
               <Box>
                 <a
@@ -79,7 +84,7 @@ function PortfolioSingle({
                   rel="noopener noreferrer"
                 >
                   <Button
-                    style={{ marginRight: '16px' }}
+                    style={{ marginRight: "16px" }}
                     color="primary"
                     variant="contained"
                     startIcon={<VisibilityIcon />}
@@ -102,7 +107,7 @@ function PortfolioSingle({
                 </a>
               </Box>
             ) : (
-              ''
+              ""
             )}
           </Box>
         </Grid>
