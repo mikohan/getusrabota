@@ -57,6 +57,22 @@ export const translateText: TransText = {
     fullStackLinks: "Full Stack Projects Fast Links",
     miscLinks: "Miscellanious Projects Fast Links",
     portfolio: {
+      partshub: {
+        title: `PartsHub Car Parts Project E-commerce project (React, NextJS, Python, Django, PHP, Elasticsearch, Typescript)`,
+        mainText: `
+        <p>
+        Quite complex e-commerce project was built using cutting edge technologies.</p>
+        `,
+
+        gitHub: {
+          href: "https://github.com/mikohan/a77-version-one-zerro-nextjs",
+          text: "See code on GitHub",
+        },
+        project: {
+          href: "https://partshub.ru",
+          text: "Live View",
+        },
+      },
       a77_new: {
         title: `Angara Car Parts Project E-commerce project (Python, Django, PHP, Microservises)`,
         mainText: `
@@ -409,6 +425,22 @@ export const translateText: TransText = {
     miscLinks: "Разные Поекты",
     portfolio: {
       pageTitle: "Портфолио",
+      partshub: {
+        title: `Интернет Магазин Запчастей Partshub.ru (React, NextJS, Elasticsearch, Python, Django)`,
+        mainText: `
+        <p>
+        Проект с достаточно сложной архитектурой. Испльзованы современные технологии, такие как, SSR, Next Image, Material UI
+        </p>
+        `,
+        gitHub: {
+          href: "https://github.com/mikohan/a77-version-one-zerro-nextjs",
+          text: "Посмотреть код на GitHub",
+        },
+        project: {
+          href: "https://partshub.ru",
+          text: "Посмотреть сайт",
+        },
+      },
       a77_new: {
         title: `Интернет Магазин Запчастей Angara (Python, Django, Microservises, Elasticsearch, PHP)`,
         mainText: `
@@ -743,6 +775,22 @@ export const translateText: TransText = {
     miscLinks: "Miscellanious Projects Fast Links",
     portfolio: {
       pageTitle: "Portfolio Page",
+      partshub: {
+        title: `Partshub.ru E-commerce project (React, NextJs, Python, Django, PHP, Microservises)`,
+        mainText: `<p>
+        Tento projekt elektronického obchodování byl vytvořen pomocí Pythonu a Jango.
+        Mimochodem, tento projekt jsem postavil sám od začátku do výroby.
+        </p>
+        `,
+        gitHub: {
+          href: "https://github.com/mikohan/a77-version-one-zerro-nextjs",
+          text: "See code on GitHub",
+        },
+        project: {
+          href: "https://partshub.ru",
+          text: "Live View",
+        },
+      },
       a77_new: {
         title: `Angara Car Parts Project E-commerce project (Python, Django, PHP, Microservises)`,
         mainText: `<p>

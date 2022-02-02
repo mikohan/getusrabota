@@ -110,11 +110,11 @@ function FullStack() {
         </Grid>
         <Grid container spacing={5} style={{ marginTop: "1rem" }}>
           <Grid item container xs={12}>
-            <div id="venezo">
+            <div id="partshub">
               <PortfolioSingle
-                vidUrl="https://youtu.be/IHpfcNRXUcU"
-                coverImg={require("../assets/venezo-cover.png")}
-                projectName="venezo"
+                vidUrl=""
+                coverImg={require("../assets/partshub.png")}
+                projectName="partshub"
               />
             </div>
           </Grid>
