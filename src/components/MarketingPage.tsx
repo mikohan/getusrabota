@@ -19,13 +19,13 @@ function MarketingPage() {
       initial={{ opacity: 0 }}
       transition={{ duration: durationPage }}
     >
-      <Container maxWidth="lg" className="containerClass">
+      <Container maxWidth='lg' className='containerClass'>
         <Grid container spacing={3}>
           <Grid item xs={12}>
             <VideoPageComponent
               header={header}
               text={text}
-              vidUrl="https://youtu.be/80-lNQcOBbs"
+              vidUrl='https://youtu.be/80-lNQcOBbs'
             />
           </Grid>
           <Grid item container xs={12}>
