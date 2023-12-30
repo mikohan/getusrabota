@@ -28,12 +28,18 @@ function CertPage() {
       initial={{ opacity: 0 }}
       transition={{ duration: durationPage }}
     >
-      <Container className="containerClass" maxWidth="lg">
+      <Container className='containerClass' maxWidth='lg'>
         <Grid container spacing={3}>
-          <Grid item container xs={12} justify="space-between" spacing={1}>
+          <Grid
+            item
+            container
+            xs={12}
+            justifyContent='space-between'
+            spacing={1}
+          >
             <Grid item xs={12}>
               <Paper>
-                <Typography className={classes.headerClass} variant="h3">
+                <Typography className={classes.headerClass} variant='h3'>
                   {pageHeader}
                 </Typography>
               </Paper>
@@ -96,7 +102,7 @@ function CertPage() {
                 }}
                 showUnder={260}
               >
-                <IconButton color="primary" aria-label="add to shopping cart">
+                <IconButton color='primary' aria-label='add to shopping cart'>
                   <PresentToAllIcon className={classes.scrollUp} />
                 </IconButton>
               </ScrollToTop>
